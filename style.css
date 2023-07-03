@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+body {
+    background-color: #333;
+}
+
+#header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    font-size: 10pt;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header h1 {
+    padding: 10px;
+    font-size: 12pt;
+    color: blueviolet;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 7px;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: rgb(172, 164, 99);
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#eu {
+    background: url(./img/eu.jpg) no-repeat;
+    height: 43vh;
+    width: 95.1vw;
+    background-size: 500px;
+    background-position: top 25% right 30%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #333;
+    border-bottom: 3px solid black;
+}
+
+#eu h1 {
+    font-size: 15pt;
+    color: orange;
+}
+
+#eu h2 {
+    font-size: 15pt;
+    color: cornflowerblue;
+}
+
+#eu h3 {
+    font-size: 15pt;
+    color: yellow
+}
+
+#Contato {
+    height: 10vh;
+
+}
+
+#Contato h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.instagram i {
+    margin-right: 3px;
+    color: rgb(180, 34, 180);
+}
+
+.whatsapp {
+    display: flex;
+    flex-direction: row;
+}
+
+.whatsapp i {
+    margin-right: 3px;
+    color: green;
+}
+
+.linkedin {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkedin i {
+    margin-right: 3px;
+    color: rgb(35, 35, 82);
+}
+
+.contatos a {
+    color: black;
+}
+

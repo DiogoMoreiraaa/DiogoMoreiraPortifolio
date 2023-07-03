@@ -1,0 +1,711 @@
+@media screen and (min-width: 667px) and (max-width: 992px) /*tablet*/ {
+
+    body {
+        height: 130vh;
+    }
+
+    #header {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        font-size: 13.5pt;
+    }
+    
+    #header a {
+        text-decoration: none;
+    }
+    
+    #header h1 {
+        padding: 10px;
+        font-size: 20pt;
+        color: blueviolet;
+    }
+    
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 7px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #eu {
+    background-size: 500px;
+    height: 43.8vh;    
+    }
+
+    #eu h1{
+        font-size: 30pt;
+    }
+
+    #eu h2{
+        font-size: 20pt;
+    }
+
+    #escolhas button {
+        margin: 30px;
+        margin-bottom: 0;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 30px;
+        width: 180px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 190px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 190px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 190px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #texto {
+        padding: 0 10px;
+        height: 30vh;
+        display: block;
+        text-align: center;
+    }
+    
+    .texto {
+        
+        color: #ffffff;
+        margin-top: 15px;
+        line-height: 23px;
+    }
+    
+    .titulo {
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;
+        
+    }
+
+    .fotos {
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .html img{
+        width: 200px;
+    }
+    
+    .css img{
+        width: 150px;
+    }
+    
+    .ps img {
+        margin-left: 25px;
+        margin-top: 50px;
+        margin-bottom: 7px;
+        width: 130px;
+    }
+    
+    .ps h1 {
+        margin-left: 25px;
+    }
+
+    .site {
+        margin: auto;
+        width: 90vw;
+        height: 55vh;
+        background: url(../img/siterpg.png) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .site h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .site button {
+        margin-top: 180px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .site button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .site button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .explicacao {
+        padding: 10px 0;
+        margin-left: 20px;
+        width: 40vh;
+        text-align: left;
+        color: #ffffff;
+    }
+    
+    .explicacao h3 {
+        font-size: 20pt;
+    }
+    
+    .explicacao p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) /*pc*/ {
+        
+    body {
+        height: 130vh;
+    }
+
+    #header {
+        margin-top: 15px;
+        padding: 0 100px;
+    }
+
+    #header h1 {
+        font-size: 20pt;
+    }
+
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13pt;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #eu {
+        background-repeat: no-repeat;
+    background-size: 500px;
+    height: 43.8vh; 
+    }
+
+    #eu h1{
+        margin-left: 50px;
+        font-size: 30pt;
+    }
+
+    #eu h2{
+        margin-left: 50px;
+        font-size: 20pt;
+    }
+
+    #eu h3 {
+        margin-left: 50px;
+    }
+
+    #escolhas button {
+        margin: 30px;
+        margin-bottom: 0;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 35px;
+        width: 190px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #texto {
+        padding: 0 10px;
+        height: 30vh;
+        display: block;
+        text-align: center;
+    }
+    
+    .texto {
+        
+        color: #ffffff;
+        margin-top: 15px;
+        line-height: 23px;
+    }
+    
+    .titulo {
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;
+        
+    }
+
+    .fotos {
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .html img{
+        width: 200px;
+    }
+    
+    .css img{
+        width: 150px;
+    }
+    
+    .ps img {
+        margin-left: 25px;
+        margin-top: 50px;
+        margin-bottom: 7px;
+        width: 130px;
+    }
+    
+    .ps h1 {
+        margin-left: 25px;
+    }
+
+    .site {
+        margin: auto;
+        width: 90vw;
+        height: 55vh;
+        background: url(../img/siterpg.png) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .site h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .site button {
+        margin-top: 180px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .site button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .site button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .explicacao {
+        padding: 10px 0;
+        margin-left: 50px;
+        width: 40vh;
+        text-align: left;
+        color: #ffffff;
+    }
+    
+    .explicacao h3 {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (min-width: 1200px) /*outros*/ {
+        
+    body {
+        height: 130vh;
+    }
+
+    #header {
+        padding: 0 100px;
+    }
+
+    #header h1 {
+        font-size: 20pt;
+    }
+
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13pt;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #eu {
+        background-repeat: no-repeat;
+        background-size: 600px;
+        height: 51.9vh;
+        width: 98.5vw;
+    }
+
+    #eu h1{
+        margin-left: 100px;
+        font-size: 30pt;
+        padding: 0 30px;
+    }
+
+    #eu h2{
+        margin-left: 100px;
+        font-size: 20pt;
+        padding: 0 30px;
+    }
+
+    #eu h3 {
+        margin-left: 100px;
+        padding: 0 30px;
+        font-size: 20pt;
+    }
+
+    #escolhas button {
+        margin: 30px;
+        margin-bottom: 0;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 35px;
+        width: 190px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #texto {
+        padding: 0 10px;
+        height: 30vh;
+        display: block;
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    .texto {
+        color: #ffffff;
+        margin-top: 15px;
+        line-height: 40px;
+    }
+    
+    .titulo {
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;
+        
+    }
+
+    .fotos {
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .html img{
+        width: 200px;
+    }
+    
+    .css img{
+        width: 150px;
+    }
+    
+    .ps img {
+        margin-left: 25px;
+        margin-top: 50px;
+        margin-bottom: 7px;
+        width: 130px;
+    }
+    
+    .ps h1 {
+        margin-left: 25px;
+    }
+
+    .site {
+        margin: auto;
+        width: 90vw;
+        height: 55vh;
+        background: url(../img/siterpg.png) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .site h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .site button {
+        margin-top: 180px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .site button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .site button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .explicacao {
+        padding: 10px 0;
+        margin-left: 50px;
+        width: 40vh;
+        text-align: left;
+        color: #ffffff;
+    }
+    
+    .explicacao h3 {
+        font-size: 20pt;
+    }
+}

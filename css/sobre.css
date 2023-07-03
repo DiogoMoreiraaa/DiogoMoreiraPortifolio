@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+body {
+    background-color: #333;
+}
+
+#header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    font-size: 10pt;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header h1 {
+    padding: 10px;
+    font-size: 12pt;
+    color: blueviolet;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 7px;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: rgb(172, 164, 99);
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#escolhas {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#escolhas button {
+    margin: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid black;
+    height: 30px;
+    width: 115px;
+}
+
+#Sobre button {
+    background-color: orange;
+}
+
+#Sobre button:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 40px;
+    width: 125px;
+    box-shadow: orange 0px 20px 30px -10px;
+    background-color: #ffffff;
+    transition: 1s ease;
+}
+
+#Sobre a {
+    color: black;
+    text-decoration: none;
+}
+
+#Habi button {
+    background-color: cornflowerblue;
+}
+
+#Habi button:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 40px;
+    width: 125px;
+    box-shadow: cornflowerblue 0px 20px 30px -10px;
+    background-color: #ffffff;
+    transition: 1s ease;
+}
+
+#Habi a {
+    color: black;
+    text-decoration: none;
+}
+
+#Projetos button {
+    background-color: yellow;
+}
+
+#Projetos button:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 40px;
+    width: 125px;
+    box-shadow: yellow 0px 20px 30px -10px;
+    background-color: #ffffff;
+    transition: 1s ease;
+}
+
+#Projetos a {
+    color: black;
+    text-decoration: none;
+}
+
+#texto {
+    padding: 0 10px;
+    height: 30vh;
+    display: block;
+    text-align: center;
+}
+
+.texto {
+    
+    color: #ffffff;
+    margin-top: 15px;
+    line-height: 23px;
+}
+
+.titulo {
+    color: #ffffff;
+    text-align: left;
+    border-bottom: 1px solid black;
+    
+}
