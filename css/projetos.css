@@ -6,6 +6,7 @@
 
 body {
     background-color: #333;
+    height: 550vh;
 }
 
 #header {
@@ -189,18 +190,50 @@ body {
     color: #ffffff;
 }
 
-.explicacao {
-    padding: 10px 0;
-    margin-left: 20px;
-    width: 40vh;
-    text-align: left;
+.sitehenki {
+    margin: auto;
+    width: 90vw;
+    height: 40vh;
+    background: url(../img/Henki.jpg) no-repeat center center/cover ;
+    border: 2px solid #ffffff;
+}
+
+.sitehenki h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.sitehenki button {
+    margin-top: 130px;
+    height: 30px;
+    width: 100px;
+    border-radius: 100px;
+    border: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+}
+
+.sitehenki button:hover {
+    background-color: black;
+    color: #ffffff;
+    transition: 0.7s ease;
+}
+
+.sitehenki button a {
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease;
+}
+
+.site button a:hover {
     color: #ffffff;
 }
 
-.explicacao h3 {
-    font-size: 20pt;
-}
-
-.explicacao p {
-    text-align: center;
-}
+.explicacao {
+    padding: 10px 0;
+    margin-left: 20px;
+    width: 1000vh;
+    color: #ffffff;
