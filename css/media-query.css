@@ -1,8 +1,1134 @@
-@media screen and (min-width: 667px) and (max-width: 992px) /*tablet*/ {
+@media screen and (min-width: 0px) and (max-width: 600px) /*tablet*/ {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    body {
+        background-color: #333;
+        height: 1vh;
+    }
+
+    /*NAVBAR*/
+    
+    #header {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        font-size: 10pt;
+    }
+    
+    #header a {
+        text-decoration: none;
+    }
+    
+    #header h1 {
+        padding: 10px;
+        font-size: 12pt;
+        color: blueviolet;
+    }
+    
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 7px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*ESCOLHAS*/
+    
+    #escolhas {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #escolhas button {
+        margin: 10px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 30px;
+        width: 115px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /*HABILIDADES*/
+    
+    .titulo {
+        padding: 0 20px;
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;   
+    }
+
+    /*SITES*/
+    
+    .projetos {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .sitenome {
+        padding: 10px;
+        color: #ffffff;
+    }
+    
+    .site {
+        margin: auto;
+        width: 90vw;
+        height: 30vh;
+        background: url(../img/siterpg.png) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .site h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .site button {
+        margin-top: 130px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .site button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .site button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .sitehenki {
+        margin: auto;
+        width: 90vw;
+        height: 40vh;
+        background: url(../img/Henki.jpg) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .sitehenki h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .sitehenki button {
+        margin-top: 130px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .sitehenki button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .sitehenki button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .explicacao {
+        padding: 10px 0;
+        margin-left: 20px;
+        width:92%;
+        color: #ffffff;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+    }
+    
+    body {
+        background-color: #333;
+    }
+
+    /*NAVBAR*/
+    
+    #header {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        font-size: 10pt;
+    }
+    
+    #header a {
+        text-decoration: none;
+    }
+    
+    #header h1 {
+        padding: 10px;
+        font-size: 12pt;
+        color: blueviolet;
+    }
+    
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 7px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*ESCOLHAS*/
+    
+    #escolhas {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #escolhas button {
+        margin: 10px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 30px;
+        width: 115px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /*HABILIDADES*/
+    
+    #texto {
+        padding: 0 10px;
+        height: 30vh;
+        display: block;
+        text-align: center;
+    }
+    
+    .texto {
+        
+        color: #ffffff;
+        margin-top: 15px;
+        line-height: 23px;
+    }
+    
+    .titulo {
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;
+        
+    }
+    
+    .fotos {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .html img{
+        width: 120px;
+    }
+    
+    .css img{
+        width: 90px;
+    }
+    
+    .ps img {
+        margin-left: 15px;
+        margin-top: 30px;
+        width: 80px;
+    }
+    
+    .ps h1 {
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+    
+    .gml h1 {
+        margin-left: 25px;
+    }
+    
+    .gml img {
+        margin-left: 25px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 80px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+    }
+    
+    body {
+        background-color: #333;
+    }
+
+    /*NAVBAR*/
+    
+    #header {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        font-size: 10pt;
+    }
+    
+    #header a {
+        text-decoration: none;
+    }
+    
+    #header h1 {
+        padding: 10px;
+        font-size: 12pt;
+        color: blueviolet;
+    }
+    
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 7px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*ESCOLHAS*/
+    
+    #escolhas {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #escolhas button {
+        margin: 10px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 30px;
+        width: 115px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /*HABILIDADES*/
+    
+    #texto {
+        padding: 0 10px;
+        height: 30vh;
+        display: block;
+        text-align: center;
+    }
+    
+    .texto {
+        
+        color: #ffffff;
+        margin-top: 15px;
+        line-height: 23px;
+    }
+    
+    .titulo {
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;
+        
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+    }
+    
+    body {
+        background-color: #333;
+    }
+
+    /*NAVBAR*/
+    
+    #header {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        font-size: 10pt;
+    }
+    
+    #header a {
+        text-decoration: none;
+    }
+    
+    #header h1 {
+        padding: 10px;
+        font-size: 12pt;
+        color: blueviolet;
+    }
+    
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 7px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*PRINCIPAL*/
+    
+    #eu {
+        background: url(./img/eu.jpg) no-repeat;
+        height: 51vh;
+        width: 95.1vw;
+        background-size: 500px;
+        background-position: top 25% right 30%;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #333;
+        border-bottom: 3px solid black;
+    }
+    
+    #eu h1 {
+        font-size: 15pt;
+        color: orange;
+    }
+    
+    #eu h2 {
+        font-size: 15pt;
+        color: cornflowerblue;
+    }
+    
+    #eu h3 {
+        font-size: 15pt;
+        color: yellow
+    }
+    
+    #Contato {
+        height: 10vh;
+    
+    }
+    
+    #Contato h1 {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .contatos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    
+    .instagram {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .instagram i {
+        margin-right: 3px;
+        color: rgb(180, 34, 180);
+    }
+    
+    .whatsapp {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .whatsapp i {
+        margin-right: 3px;
+        color: green;
+    }
+    
+    .linkedin {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .linkedin i {
+        margin-right: 3px;
+        color: rgb(35, 35, 82);
+    }
+    
+    .contatos a {
+        color: black;
+    }    
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) /*celular*/ {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+    }
+    
+    body {
+        background-color: #333;
+        height: 10px;
+    }
+
+    /*NAVBAR*/
+    
+    #header {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        font-size: 10pt;
+    }
+    
+    #header a {
+        text-decoration: none;
+    }
+    
+    #header h1 {
+        padding: 10px;
+        font-size: 12pt;
+        color: blueviolet;
+    }
+    
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 7px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*PRINCIPAL*/
+    
+    #eu {
+        background: url(../img/eu.jpg) no-repeat;
+        height: 51vh;
+        width: 95.1vw;
+        background-size: 500px;
+        background-position: top 25% right 30%;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #333;
+        border-bottom: 3px solid black;
+    }
+    
+    #eu h1 {
+        font-size: 15pt;
+        color: orange;
+    }
+    
+    #eu h2 {
+        font-size: 15pt;
+        color: cornflowerblue;
+    }
+    
+    #eu h3 {
+        font-size: 15pt;
+        color: yellow
+    }
+    
+    #Contato {
+        height: 10vh;
+    
+    }
+    
+    #Contato h1 {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .contatos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    
+    .instagram {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .instagram i {
+        margin-right: 3px;
+        color: rgb(180, 34, 180);
+    }
+    
+    .whatsapp {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .whatsapp i {
+        margin-right: 3px;
+        color: green;
+    }
+    
+    .linkedin {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .linkedin i {
+        margin-right: 3px;
+        color: rgb(35, 35, 82);
+    }
+    
+    .contatos a {
+        color: black;
+    }
+    
+    /*SITES*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    body {
+        background-color: #333;
+        height: 550vh;
+    }
+    
+    #header {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        font-size: 10pt;
+    }
+    
+    #header a {
+        text-decoration: none;
+    }
+    
+    #header h1 {
+        padding: 10px;
+        font-size: 12pt;
+        color: blueviolet;
+    }
+    
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 7px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #escolhas {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #escolhas button {
+        margin: 10px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 30px;
+        width: 115px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 40px;
+        width: 125px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .titulo {
+        padding: 0 20px;
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;   
+    }
+    
+    .projetos {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .sitenome {
+        padding: 10px;
+        color: #ffffff;
+    }
+    
+    .site {
+        margin: auto;
+        width: 90vw;
+        height: 30vh;
+        background: url(../img/siterpg.png) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .site h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .site button {
+        margin-top: 130px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .site button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .site button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .sitehenki {
+        margin: auto;
+        width: 90vw;
+        height: 40vh;
+        background: url(../img/Henki.jpg) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .sitehenki h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .sitehenki button {
+        margin-top: 130px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .sitehenki button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .sitehenki button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .explicacao {
+        padding: 10px 0;
+        margin-left: 20px;
+        width:92%;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) /*tablet*/ {
 
     body {
         height: 130vh;
     }
+
+    /*NAVBAR*/
 
     #header {
         background-color: #333;
@@ -44,9 +1170,11 @@
         color: white;
     }
 
+    /*PRINCIPAL*/
+
     #eu {
     background-size: 500px;
-    height: 43.8vh;    
+    height: 51vh;    
     }
 
     #eu h1{
@@ -56,6 +1184,8 @@
     #eu h2{
         font-size: 20pt;
     }
+
+    /*ESCOLHAS*/
 
     #escolhas button {
         margin: 30px;
@@ -159,6 +1289,8 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    /*HABILIDADES*/
     
     .html img{
         width: 200px;
@@ -178,6 +1310,17 @@
     .ps h1 {
         margin-left: 25px;
     }
+
+    .gml h1 {
+        margin-left: 25px;
+    }
+    
+    .gml img {
+        padding: 20px 0px;
+        width: 120px;
+    }
+
+    /*SITES*/
 
     .site {
         margin: auto;
@@ -224,7 +1367,7 @@
     .explicacao {
         padding: 10px 0;
         margin-left: 20px;
-        width: 40vh;
+        width: 100vw;
         text-align: left;
         color: #ffffff;
     }
@@ -232,17 +1375,15 @@
     .explicacao h3 {
         font-size: 20pt;
     }
-    
-    .explicacao p {
-        text-align: center;
-    }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) /*pc*/ {
+@media screen and (min-width: 992px) and (max-width: 1000px) /*pc*/ {
         
     body {
         height: 130vh;
     }
+
+    /*NAVBAR*/
 
     #header {
         margin-top: 15px;
@@ -275,10 +1416,12 @@
         color: white;
     }
 
+    /*PRINCIPAL*/
+
     #eu {
         background-repeat: no-repeat;
     background-size: 500px;
-    height: 43.8vh; 
+    height: 46vh; 
     }
 
     #eu h1{
@@ -294,6 +1437,8 @@
     #eu h3 {
         margin-left: 50px;
     }
+
+    /*ESCOLHAS*/
 
     #escolhas button {
         margin: 30px;
@@ -367,6 +1512,8 @@
         color: black;
         text-decoration: none;
     }
+
+    /*HABILIDADES*/
     
     #texto {
         padding: 0 10px;
@@ -376,10 +1523,10 @@
     }
     
     .texto {
-        
+        font-size: 20pt;
         color: #ffffff;
         margin-top: 15px;
-        line-height: 23px;
+        line-height: 30px;
     }
     
     .titulo {
@@ -416,6 +1563,270 @@
     .ps h1 {
         margin-left: 25px;
     }
+
+    .gml h1 {
+        margin-left: 25px;
+    }
+    
+    .gml img {
+        padding: 17px 0px;
+        width: 120px;
+    }
+
+    /*SITES*/
+
+    .site {
+        margin: auto;
+        width: 90vw;
+        height: 55vh;
+        background: url(../img/siterpg.png) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .site h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .site button {
+        margin-top: 180px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .site button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .site button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .explicacao {
+        padding: 10px 0;
+        margin-left: 50px;
+        width: 40vh;
+        text-align: left;
+        color: #ffffff;
+    }
+    
+    .explicacao h3 {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) /*pc*/ {
+        
+    body {
+        height: 130vh;
+    }
+
+    /*NAVBAR*/
+
+    #header {
+        margin-top: 15px;
+        padding: 0 100px;
+    }
+
+    #header h1 {
+        font-size: 20pt;
+    }
+
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13pt;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*PRINCIPAL*/
+
+    #eu {
+        background-repeat: no-repeat;
+    background-size: 500px;
+    height: 46vh; 
+    }
+
+    #eu h1{
+        margin-left: 50px;
+        font-size: 30pt;
+    }
+
+    #eu h2{
+        margin-left: 50px;
+        font-size: 20pt;
+    }
+
+    #eu h3 {
+        margin-left: 50px;
+    }
+
+    /*ESCOLHAS*/
+
+    #escolhas button {
+        margin: 30px;
+        margin-bottom: 0;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 35px;
+        width: 190px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /*HABILIDADES*/
+    
+    #texto {
+        padding: 0 10px;
+        height: 30vh;
+        display: block;
+        text-align: center;
+    }
+    
+    .texto {
+        font-size: 20pt;
+        color: #ffffff;
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    
+    .titulo {
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;
+        
+    }
+
+    .fotos {
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .html img{
+        width: 200px;
+    }
+    
+    .css img{
+        width: 150px;
+    }
+    
+    .ps img {
+        margin-left: 25px;
+        margin-top: 50px;
+        margin-bottom: 7px;
+        width: 130px;
+    }
+    
+    .ps h1 {
+        margin-left: 25px;
+    }
+
+    .gml h1 {
+        margin-left: 25px;
+    }
+    
+    .gml img {
+        padding: 17px 0px;
+        width: 120px;
+    }
+
+    /*SITES*/
 
     .site {
         margin: auto;
@@ -475,8 +1886,10 @@
 @media screen and (min-width: 1200px) /*outros*/ {
         
     body {
-        height: 130vh;
+        height: 100vh;
     }
+
+    /*NAVBAR*/
 
     #header {
         padding: 0 100px;
@@ -508,10 +1921,12 @@
         color: white;
     }
 
+    /*PRINCIPAL*/
+
     #eu {
         background-repeat: no-repeat;
         background-size: 600px;
-        height: 51.9vh;
+        height: 46vh;
         width: 98.5vw;
     }
 
@@ -532,6 +1947,8 @@
         padding: 0 30px;
         font-size: 20pt;
     }
+
+    /*ESCOLHAS*/
 
     #escolhas button {
         margin: 30px;
@@ -605,6 +2022,8 @@
         color: black;
         text-decoration: none;
     }
+
+    /*HABILIDADES*/
     
     #texto {
         padding: 0 10px;
@@ -654,6 +2073,523 @@
     .ps h1 {
         margin-left: 25px;
     }
+
+    .gml h1 {
+        margin-left: 25px;
+    }
+    
+    .gml img {
+        padding: 15px 0px;
+        width: 120px;
+    }
+
+    /*SITES*/
+
+    .site {
+        margin: auto;
+        width: 90vw;
+        height: 55vh;
+        background: url(../img/siterpg.png) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .site h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .site button {
+        margin-top: 180px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .site button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .site button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .explicacao {
+        padding: 10px 0;
+        margin-left: 50px;
+        width: 40vw;
+        text-align: left;
+        color: #ffffff;
+    }
+    
+    .explicacao h3 {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1366px) /*pc*/ {
+        
+    body {
+        height: 10vh;
+    }
+
+    /*NAVBAR*/
+
+    #header {
+        margin-top: 15px;
+        padding: 0 100px;
+    }
+
+    #header h1 {
+        font-size: 20pt;
+    }
+
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13pt;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*PRINCIPAL*/
+
+    #eu {
+        background-repeat: no-repeat;
+    background-size: 500px;
+    height: 25.5vh; 
+    }
+
+    #eu h1{
+        margin-left: 50px;
+        font-size: 30pt;
+    }
+
+    #eu h2{
+        margin-left: 50px;
+        font-size: 20pt;
+    }
+
+    #eu h3 {
+        margin-left: 50px;
+    }
+
+    /*ESCOLHAS*/
+
+    #escolhas button {
+        margin: 30px;
+        margin-bottom: 0;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 35px;
+        width: 190px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /*HABILIDADES*/
+    
+    #texto {
+        padding: 0 10px;
+        height: 30vh;
+        display: block;
+        text-align: center;
+    }
+    
+    .texto {
+        font-size: 20pt;
+        color: #ffffff;
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    
+    .titulo {
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;
+        
+    }
+
+    .fotos {
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .html img{
+        width: 200px;
+    }
+    
+    .css img{
+        width: 150px;
+    }
+    
+    .ps img {
+        margin-left: 25px;
+        margin-top: 50px;
+        margin-bottom: 7px;
+        width: 130px;
+    }
+    
+    .ps h1 {
+        margin-left: 25px;
+    }
+
+    .gml h1 {
+        margin-left: 25px;
+    }
+    
+    .gml img {
+        padding: 17px 0px;
+        width: 120px;
+    }
+
+    /*SITES*/
+
+    .site {
+        margin: auto;
+        width: 90vw;
+        height: 55vh;
+        background: url(../img/siterpg.png) no-repeat center center/cover ;
+        border: 2px solid #ffffff;
+    }
+    
+    .site h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .site button {
+        margin-top: 180px;
+        height: 30px;
+        width: 100px;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        background: white;
+        color: black;
+    }
+    
+    .site button:hover {
+        background-color: black;
+        color: #ffffff;
+        transition: 0.7s ease;
+    }
+    
+    .site button a {
+        text-decoration: none;
+        color: black;
+        transition: 0.7s ease;
+    }
+    
+    .site button a:hover {
+        color: #ffffff;
+    }
+    
+    .explicacao {
+        padding: 10px 0;
+        margin-left: 50px;
+        width: 40vh;
+        text-align: left;
+        color: #ffffff;
+    }
+    
+    .explicacao h3 {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (min-width: 1366px) /*pc*/ {
+        
+    body {
+        height: 10vh;
+    }
+
+    /*NAVBAR*/
+
+    #header {
+        margin-top: 15px;
+        padding: 0 100px;
+    }
+
+    #header h1 {
+        font-size: 20pt;
+    }
+
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13pt;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: rgb(172, 164, 99);
+    }
+    
+    #navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*PRINCIPAL*/
+
+    #eu {
+        background-repeat: no-repeat;
+    background-size: 500px;
+    height: 37.3vh; 
+    }
+
+    #eu h1{
+        margin-left: 50px;
+        font-size: 30pt;
+    }
+
+    #eu h2{
+        margin-left: 50px;
+        font-size: 20pt;
+    }
+
+    #eu h3 {
+        margin-left: 50px;
+    }
+
+    /*ESCOLHAS*/
+
+    #escolhas button {
+        margin: 30px;
+        margin-bottom: 0;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid black;
+        height: 35px;
+        width: 190px;
+    }
+    
+    #Sobre button {
+        background-color: orange;
+    }
+    
+    #Sobre button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: orange 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Sobre a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Habi button {
+        background-color: cornflowerblue;
+    }
+    
+    #Habi button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: cornflowerblue 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Habi a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #Projetos button {
+        background-color: yellow;
+    }
+    
+    #Projetos button:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 45px;
+        width: 200px;
+        box-shadow: yellow 0px 20px 30px -10px;
+        background-color: #ffffff;
+        transition: 1s ease;
+    }
+    
+    #Projetos a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /*HABILIDADES*/
+    
+    #texto {
+        padding: 0 10px;
+        height: 30vh;
+        display: block;
+        text-align: center;
+    }
+    
+    .texto {
+        font-size: 20pt;
+        color: #ffffff;
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    
+    .titulo {
+        color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid black;
+        
+    }
+
+    .fotos {
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .html img{
+        width: 200px;
+    }
+    
+    .css img{
+        width: 150px;
+    }
+    
+    .ps img {
+        margin-left: 25px;
+        margin-top: 50px;
+        margin-bottom: 7px;
+        width: 130px;
+    }
+    
+    .ps h1 {
+        margin-left: 25px;
+    }
+
+    .gml h1 {
+        margin-left: 25px;
+    }
+    
+    .gml img {
+        padding: 17px 0px;
+        width: 120px;
+    }
+
+    /*SITES*/
 
     .site {
         margin: auto;

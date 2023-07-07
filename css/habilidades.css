@@ -178,11 +178,11 @@ body {
 
 .gml h1 {
     margin-left: 25px;
-    margin-top: 19px;
 }
 
 .gml img {
     margin-left: 25px;
-    margin-top: 45px;
-    width: 130px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 80px;
 }
